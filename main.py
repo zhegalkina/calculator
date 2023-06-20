@@ -2,7 +2,8 @@ def read_input():
     in_str = input("Enter the line: ").split()
     x, sing, y = in_str
     return int(x), sing, int(y)
-def calculate(x, sign, y)
+
+def calculate(x, sign, y):
     if sign== "+":
         return x+y
     elif sign == "-":
